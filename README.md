@@ -1,39 +1,20 @@
-Python3 Hello World Demo
+Python3 JsonRpc Demo
 =========================
 
-Install `python3`:
+Requires `python3`
 
 ```
-brew install python
+pip3 install -r requirements.txt 
 ```
 
-`python3` and `pip3` will be available.
-
-Run:
+Start server:
 
 ```
-make init
-make test
+python3 server.py
 ```
 
-Note:
-
-Install current package:
+Run client:
 
 ```
-python3 setup.py install
+python3 client.py
 ```
-
-or for development:
-
-```
-python3 setup.py develop
-```
-
-Resources
----------
-
-- <https://www.kennethreitz.org/essays/repository-structure-and-python>
-- <https://github.com/kennethreitz/samplemod>
-- <https://stackoverflow.com/questions/1471994/what-is-setup-py>
-- pypi packages: <https://pypi.python.org/pypi>
